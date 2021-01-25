@@ -1,7 +1,7 @@
 {
   "name": "tailwind-css-starter",
   "version": "0.0.1",
-  "description": "Staeter sapme for tailwind",
+  "description": "Starter sample for tailwind",
   "main": "index.js",
   "scripts": {
     "start": "postcss -w ./src/styles/default.css -o ./output/styles/default.css",
