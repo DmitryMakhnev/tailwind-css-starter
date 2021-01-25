@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-css-starter",
+  "version": "0.0.1",
+  "description": "Staeter sapme for tailwind",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss -w ./src/styles/default.css -o ./output/styles/default.css",
+    "build": "postcss ./src/styles/default.css -o ./output/styles/default.css",
+    "build:prod": "cross-env NODE_ENV=production postcss ./src/styles/default.css -o ./output/styles/default.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.3",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  }
+}
